@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Metropolis;
+    border: none;
+    outline: none;
+}
+a{
+    color: unset;
+}
+/* header section */
+header{
+    background-image: url('hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;    
+}
+/* navbar with icon login and signup */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    margin: 0px auto;
+}
+nav .app{
+    font-weight: 100;
+}
+nav .nav-item{
+    margin:10px;
+    font-size: 1.1rem;
+}
+.nav-item{
+    color:#fff;
+}
+.login{
+    display: flex;
+    font-weight: 100;
+}
+.login .nav-item{
+    padding: 0px 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 80%;
+}
+.logo{
+    width: 300px;
+    margin-top: 0px;
+}
+.content h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.search_box{
+    display: flex;
+    justify-content:cen;
+    align-items: center;
+    width: 55%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.separator{
+    width: 2px;
+    height: 100%;
+    background-color:black;
+    margin-left: 10px;
+}
+.search_box select{
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight:800 ;
+}
+.input{
+    flex-grow: 80;
+    display: flex;
+    margin:0px 25px ;
+}
+.input input{
+    width: 100%;
+    margin: 0px 15px;
+    font-size: 1.2rem;
+}
+.input .fas{
+    font-size: 1.2rem;
+}
+/* header done  */
+div.heading p{
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 25px 0px;
+}
+div.heading span{
+    font-weight: 600;
+}
+div.anchor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 10px auto;
+}
+div.anchor .list{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 300px;
+height: 70px;
+border-radius: 10px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 0px 20px;
+font-size: 22px;
+font-weight:400;
+border: 3px black;
+}
+div.anchor .list:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 10px inset;
+    /* transition: 0.5s  ease-out; */
+}
+div.contact{
+    background-color: rgb(255, 241, 247);
+    height: 60vh;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contact .mobile_image img{
+max-width: 250px;
+}
+div.contact .form_content{
+    /* background-color: seagreen; */
+    width: 32%;
+    height: 80%;
+    margin-top: -10px;  
+    padding: 20px;
+}
+div.contact .form_content h2{
+    font-size: 42px;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.contact .form_content p{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 0.5px;
+    line-height:25px;
+}
+div.form .radio_button{
+    width: 50%;
+    margin-top: 4%;
+    font-size: 23px; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.mail{
+    margin-top: 20px;
+}
+.mail input{
+    height: 40px;
+    width: 250px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.mail button{
+    height:40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(237,90,107);
+    color: white;
+}
+section{
+    margin-top: 20px;
+}
+section p{
+    opacity: 0.8;
+}
+.img_container{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+
+}
+.appStore,.playStore{
+    width:150px;
+    margin-top: 20px;
+}
+section.explore{
+    width: 70%;
+    /* background-color:rgb(4, 138, 255) ; */
+    margin: 0px auto;
+}
+section.explore h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+section.explore div.first p{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.list{
+    margin-top: 30px;
+}
+.list li{
+    display: inline;
+    font-size: 20px;
+}
+.dot{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+}
+.list ul li{
+    opacity: 0.7;
+}
+.list ul li:hover{
+    opacity: 1;
+}
+section.explore div.second p{
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 800;
+}
+section footer{
+    min-height: 50vh;
+    background-color: rgb(247, 247, 244);
+    margin-top: 6rem;
+}
+footer .footer_heading{
+    width: 75%;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: violet; */
+}   
+.c_lang{
+    width: 20%;
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 31px;
+}
+.country,.lang{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgb(247, 247, 244);
+    text-align: center;
+}
+.footer_content{
+    width: 75%;
+    margin:0px auto;
+    /* background-color: blue; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    height:30vh;
+    padding: 0px;
+    margin-top: 20px;
+}
+.add{
+    background: url(https://b.zmtcdn.com/data/webuikit/0687ff5….png) -141px 0px no-repeat;
+}
+.footer_content ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: burlywood; */
+    height: 30vh;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.footer_content ul li{
+    list-style: none;
+    opacity: 0.8;
+}
+.footer_content ul li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.social_links{
+    margin-top: 20px;
+}
+.fab{
+    font-size: 25px;
+    margin-left: 10px;
+}
